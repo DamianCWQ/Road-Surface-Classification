@@ -1,16 +1,16 @@
 # Road-Surface-Classification
-A machine learning project that classifies road surface conditions using multiple deep learning models and a traditional machine learning approach. The system can identify four types of road conditions: Good Condition, Potholes, Cracked Road, and Flooded/Muddy surfaces.
+A machine learning project that classifies road surface conditions using multiple deep learning models and a traditional machine learning approach. The system can identify four types of road conditions: Good Condition, Potholes, Cracked Road, and Flooded/Muddy surfaces. This group project is contributed by 4 team members, who are Xavier Tiong, Kelvin Ng, Yek Nai Chong and Damian Choy.
 
 ## Project Overview
 This project implements and compares multiple machine learning approaches for road surface classification:
 - **EfficientNet** - Transfer learning with EfficientNet architecture
-- **MobileNetV2** - Lightweight model optimized for mobile deployment
+- **MobileNetV2** - Lightweight model optimised for mobile deployment
 - **ResNet18** - Residual neural network for robust feature extraction
 - **Random Forest** - Traditional machine learning classifier
 
 The project includes a user-friendly Gradio web interface for real-time classification of road surface images.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── classifier.py              # Main classification interface with Gradio GUI
@@ -43,7 +43,7 @@ dataset/
     └── [same structure as train]
 ```
 
-## 🔧 Usage
+## Usage
 ### Training Models
 Train individual models using the respective training scripts:
 ```
